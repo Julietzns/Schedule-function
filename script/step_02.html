@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../step02_css/step_02.css">
+    <title>Le tableau du Halouf</title>
+</head>
+<body>
+    <table id="tableau-style">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <!--CONTENU DE TABLEAU-->
+
+        <tbody>
+            <tr>
+                <td>Pikachu</td>
+                <td>Eclair</td>
+                <td>17.50</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td>Ronflex</td>
+                <td>Vent</td>
+                <td>12.10</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td>Qulbutoké</td>
+                <td>NS</td>
+                <td>8.99</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <button id="clicMoney">money</button>    
+
+<!--GET affiche les reponses de l'user, à éviter... 
+POST est mieux car on récupère ce qui sera tapé => hop dans la db (ici traitement_du_form.html) => mieux dans une db
+et on ajoute une action qui fera la redirection apres avoir cliqué sur submit
+
+<form id="form_elements" method="POST" action="traitement_du_form.html">-->
+    <form name="form_here" id="form_elements" method="POST">
+        <label for="name">Name: </label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="description">Description: </label>
+        <br>
+        <input type="text" id="description" name="description">
+        <br>
+        <label for="price">Price: </label>
+        <br>
+        <input type="text" id="price" name="price">
+        <br>
+        <input id="clickSubmit" type="submit" value="Validé!">
+    </form>
+
+    <script src="../step02_js/step_02.js"></script>
+</body>
+</html>
