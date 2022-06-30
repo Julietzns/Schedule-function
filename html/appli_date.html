@@ -15,21 +15,23 @@
         <h3>Réservez votre séjour</h3>
         <div class="night_price"><span id="nightPrice">30€/nuit</span></div>
 
-        <label class="label" for="">Date d'arrivée</label>
-        <input id="start_date" type="date" required> <br>
+        <label class="label_text" for="">Date d'arrivée</label>
+        <input class="style_date" id="start_date" type="date" required> <br>
 
-        <label class="label" for="">Date de départ</label>
-        <input id="end_date" type="date" required> <br>
+        <label class="label_text" for="">Date de départ</label>
+        <input class="style_date" id="end_date" type="date" required> <br>
     <!-- Il manque: le bouton qui mène vers une page du "traitement, OK resa"
         + le css de la page à faire / indiquer qu'une fois la resa faite,
             cela  mène à une autre page-->
         <button class="button_check">
-            <p>Valider ma réservation</button></p>
+            <p>Valider ma réservation</p>
+        </button>
         <a href="../HTML_date/page_ordered.html" class="animated_link"></a>
         <p class="total">Total : <span id="total"> €</span></p>
         
-        
     </div>
+
+    <p class="sign">Julie Thézénas</p>
 
 <script src="../SCRIPT_date/script_date.js"></script>
 </body>
