@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS_date/appli_date.css">
+    <link rel="stylesheet" href="../css/main_page.css">
     <title>Look at dream</title>
 </head>
 <body class="fond_colo">
     <h1>Look at dream</h1>
     <h2>Prévoyez vos vacances, ou pas !</h2>    
     
-    <div class="card">
+    <div class="box">
         <h3>Réservez votre séjour</h3>
-        <div class="night_p"><span id="nightPrice">30€/nuit</span></div>
+        <div class="night_price"><span id="nightPrice">30€/nuit</span></div>
 
         <label class="label" for="">Date d'arrivée</label>
         <input id="start_date" type="date" required> <br>
@@ -23,8 +23,9 @@
     <!-- Il manque: le bouton qui mène vers une page du "traitement, OK resa"
         + le css de la page à faire / indiquer qu'une fois la resa faite,
             cela  mène à une autre page-->
-        <button class="button_valider">Valider ma réservation</button>
-        <a href="../HTML_date/page_ordered.html"></a>
+        <button class="button_check">
+            <p>Valider ma réservation</button></p>
+        <a href="../HTML_date/page_ordered.html" class="animated_link"></a>
         <p class="total">Total : <span id="total"> €</span></p>
         
         
