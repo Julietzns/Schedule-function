@@ -25,11 +25,14 @@
 body {
     background-color: var(--info-sch);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../static/img/vague_left.png);
+    background-size: 22%;
+    background-repeat: no-repeat;
 }
 
 /*TYPO*/
 
-h1, h2, h3, .style_date, .night_price, .total {
+h1, h2, h3, .style_date, .total {
     color: var(--secondary-sch);
 }
 
@@ -58,8 +61,20 @@ p {
 }
 
 .total {
-    margin-top: 40px;
+    text-align: center;
     font-size: x-large;
+    font-weight: bolder;
+    margin-top: 25px;
+    background-color: var(--secondary-sch);
+    color: var(--primary-sch);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
 }
 
 .box {
@@ -80,6 +95,16 @@ p {
     font-size: large;
     font-weight: bolder;
     margin-bottom: 30px;
+    background-color: var(--secondary-sch);
+    color: var(--primary-sch);
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
 }
 
 .fond_colo {
@@ -139,6 +164,10 @@ input {
 
 .label_text {
     color: var(--secondary-sch);
+    margin-bottom: 8px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
 }
 
 .sign {
